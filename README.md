@@ -99,37 +99,6 @@ New-ADOrganizationalUnit -Name "IT" -Path "DC=EY,DC=local"
 
 ---
 
-## 🗂️ Project Structure for GitHub
-```
-EY-Infra-Lab-Project/
-│
-├── README.md
-├── scripts/
-│   ├── create_users.ps1
-│   ├── set_permissions.ps1
-│   └── map_drives_gpo.ps1
-├── documentation/
-│   ├── WSUS_Config.md
-│   ├── FileServer_Setup.md
-│   └── GPO_Mapping.md
-└── users.csv
-```
-
----
-
-## 📝 How to Upload to GitHub
-1. Create a GitHub repo `EY-Infra-Lab-Project`
-2. Run in terminal:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/EY-Infra-Lab-Project.git
-git push -u origin main
-```
-
----
 
 
 

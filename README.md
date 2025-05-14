@@ -5,7 +5,6 @@ This project simulates a real-world IT infrastructure with domain services, user
 ## 🔧 Technologies Used
 - Windows Server 2019 (Domain Controller)
 - Windows Server 2022 (File Server)
-- Windows 10/11 Clients
 - PowerShell
 - Group Policy Management
 - WSUS (Windows Server Update Services)

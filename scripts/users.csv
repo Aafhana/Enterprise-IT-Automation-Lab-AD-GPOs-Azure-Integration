@@ -1,0 +1,5 @@
+FirstName,LastName,Name,Username,Password,OU
+John,Doe,John Doe,jdoe,P@ssw0rd1,\"OU=HR,DC=EY,DC=local\"
+Jane,Smith,Jane Smith,jsmith,P@ssw0rd2,\"OU=IT,DC=EY,DC=local\"
+Bob,Brown,Bob Brown,bbrown,P@ssw0rd3,\"OU=Finance,DC=EY,DC=local\"
+Alice,Johnson,Alice Johnson,ajohnson,P@ssw0rd4,\"OU=Marketing,DC=EY,DC=local\"

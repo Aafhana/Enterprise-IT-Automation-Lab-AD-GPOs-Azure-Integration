@@ -39,7 +39,7 @@ New-Item -Path "C:\Shared\IT" -ItemType Directory
 ### Set NTFS Permissions
 ```powershell
 $acl = Get-Acl "C:\Shared\HR"
-$rule = New-Object System.Security.AccessControl.FileSystemAccessRule("EY\HR","FullControl","Allow")
+$rule = New-Object System.Security.AccessControl.FileSystemAccessRule("EY\HR_team","FullControl","Allow")
 $acl.AddAccessRule($rule)
 Set-Acl "C:\Shared\HR" $acl
 ```
@@ -48,8 +48,8 @@ Repeat for IT folder.
 
 ### Create SMB Shares
 ```powershell
-New-SmbShare -Name "HR" -Path "C:\Shared\HR" -FullAccess "EY\HR"
-New-SmbShare -Name "IT" -Path "C:\Shared\IT" -FullAccess "EY\IT"
+New-SmbShare -Name "HR" -Path "C:\Shared\HR" -FullAccess "EY\HR_team"
+New-SmbShare -Name "IT" -Path "C:\Shared\IT" -FullAccess "EY\IT_team"
 ```
 
 ### GPO Mapped Drives
